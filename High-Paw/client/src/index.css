@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .dark-mode-toggle {
+    @apply absolute top-0 bg-black p-4 text-black dark:bg-white;
+  }
+}
+
+.map {
+  z-index: 0 !important;
+}
