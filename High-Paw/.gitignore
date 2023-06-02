@@ -1,0 +1,30 @@
+https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# testing
+coverage/
+
+# production
+dist/
+build/
+
+# misc
+.DS_Store
+.parcel-cache
+haters
+.env
+.vscode
+.cache
+
+# package managers
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npmrc
+
+# sqlite
+*.sqlite
