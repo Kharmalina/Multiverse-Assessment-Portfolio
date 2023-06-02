@@ -1,0 +1,31 @@
+name: Test
+
+on:
+  pull_request:
+    branches: [main]
+
+# top-level call-out of the different tasks within the workflow
+jobs:
+  # job id
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    # list of steps to complete in the workflow, in order
+    steps:
+      # extend from these published, pre-configured actions
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          # the node version for the setup-node action
+          node-version: 16.x
+      # Install packages and run tests
+      - run: npm install
+        working-directory: ./client
+      - run: npm install
+        working-directory: ./server
+      - run: npm test
+        working-directory: ./server
+        env:
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
+          DB_NAME: ${{ secrets.DB_NAME }}
