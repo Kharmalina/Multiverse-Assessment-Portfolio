@@ -1,15 +1,36 @@
-## Project #1
-Give a high-level overview of the project purpose
-- (*Situation*) Describe the application and why you created this program
-- (*Task*) Describe the overall structure of your application and the design process prior to building the program
+## Project #1: High Paw
+Give a high-level overview of the project purpose:
+SITUATION
+- High Paw is a deployed, full stack application created for the Deployment module of the Multiverse curriculum. High Paw's main concept is a social media platform where users can register there dogs/puppies. The gimmmick and novelty of the ptoject idea is that the animals themselves are the ones interacting with the site - the profile are the dog's demographics, as if they were the ones registering! The dogs would be the ones creating events and hangouts via geolocation. The animals can edit their own hangouts, see other's hangouts, and register for them. The dogs would be the ones creating events and hangouts via geolocation. The animals can edit their own hangouts, see other's hangouts, and register for them.
+TASK
+- There are 4 main parts to the root project structure: `.github/workflows`, `client`, `server`, and `docker-compose.yml`. These core parts are for Continous Integration and Continous Deployment, frontend implementation, backend development, and containerization, respectively. 
+- Following the Software Development Life Cycle (SDLC), in a team of 4, we started off with Analysis and Design - we established the concept of a dog-centric social platform with geolocation as one of the main features. Two team members responsible for frontend development was also responsible for the overall rendered design, using Figma and wireframes. Then came the design for the backend development, which me and another team memeber was responsible for. We created and connected the MongoDb database, created protected routes, created a RESTful API, backend form validation, authentication, and authorization. We also needed an efficient workflow, so CI and CD was implemented via GitHub Actions.
+- Steps 3-5, Implementation, Test, and Deployment: Implementation was mainly done with pair prgramming, 2 memebers each working on the frontend or backend. The team met up when connecting the frontend to the backend, deployment issues, and other questions that needed to be asked from the other pair. With the use of the CI/CD, triggering our tests workflow with every pull request to main and trigering the build and deploy workflow with a push to the main branch gave us the space to debug the needed code, see which tests were successful or not, and why a deployment may or may not be working.
+- Step 6: Maintenance: The team maintain the application via cleaning th databases when needed and looking over website usage. This last step is the newest step for me, since this is a long-term step in the SDLC. 
 - (*Action*) Explain the code you wrote to achieve your desired result
 - (*Result*) Showcase your final application with its functionality
 - Include relevant screenshots
 
 ## Technologies
-- List all technologies and versions here
-- Include dependencies and versions
-- Note any deployment tools as well
+
+Front End
+- React
+- Tailwind CSS
+- Cloudinary
+
+Back End
+- express
+- jsonwebtoken
+- @hapi/joi
+- bcrypt
+- mongoose
+
+Database
+- MongoDB
+
+Deployment
+- Railway (backend)
+- Render (frontend)
 
 ## Competencies
 ### JF XX.XX
@@ -27,6 +48,7 @@ Give a high-level overview of the project purpose
 - Connect the competency to this project
 
 
+### Original README
 # High_Paw
     
     
