@@ -6,9 +6,9 @@ A high-level overview of the project purpose:
 
 ### Task
 - There are 4 main parts to the root project structure: `.github/workflows`, `client`, `server`, and `docker-compose.yml`. These core parts are for Continous Integration and Continous Deployment, frontend implementation, backend development, and containerization, respectively. 
-- Following the Software Development Life Cycle (SDLC), in a team of 4, we started off with Analysis and Design - we established the concept of a dog-centric social platform with geolocation as one of the main features. Two team members responsible for frontend development was also responsible for the overall rendered design, using Figma and wireframes. Then came the design for the backend development, which me and another team memeber was responsible for. We created and connected the MongoDb database, created protected routes, created a RESTful API, backend form validation, authentication, and authorization. We also needed an efficient workflow, so CI and CD was implemented via GitHub Actions.
+- Next part fulfills JF 1.1 Competency Checklist. Following the Software Development Life Cycle (SDLC), in a team of 4, we started off with Analysis and Design - we established the concept of a dog-centric social platform with geolocation as one of the main features. Two team members responsible for frontend development was also responsible for the overall rendered design, using Figma and wireframes. Then came the design for the backend development, which me and another team memeber was responsible for. We created and connected the MongoDb database, created protected routes, created a RESTful API, backend form validation, authentication, and authorization. We also needed an efficient workflow, so CI and CD was implemented via GitHub Actions.
 - Steps 3-5, Implementation, Test, and Deployment: Implementation was mainly done with pair prgramming, 2 memebers each working on the frontend or backend. The team met up when connecting the frontend to the backend, deployment issues, and other questions that needed to be asked from the other pair. With the use of the CI/CD, triggering our tests workflow with every pull request to main and trigering the build and deploy workflow with a push to the main branch gave us the space to debug the needed code, see which tests were successful or not, and why a deployment may or may not be working.
-- Step 6: Maintenance: The team maintain the application via cleaning the databases when needed and looking over website usage. This last step is the newest step for me, since this is a long-term step in the SDLC and will need constant and consistent vigilance and actions.
+- Step 6: Maintenance: The team maintain the application via cleaning the databases when needed and looking over website usage. This last step is the newest step for me, since this is a long-term step in the SDLC and will need consistent vigilance and actions to take place.
 
 ### Action
 - My main contributions revolved backend development, deployment, and Docker implementation.
@@ -61,20 +61,107 @@ Deployment
 - Render (frontend)
 
 ## Competencies
-### JF XX.XX
-- List the full text of the job function first
+### JF 1.5
+- Can work effectively and contribute appropriately on a team to produce software
 - Describe a situation where you demonstrated this job function.
 - Summarize the actions you took to accomplish the goal. 
 - Emphasize the results of this action for your team or your learning. 
 - Connect the competentcy to this project
 
-### JF XX.XX
-- List the full text of the job function first
+### JF 1.7
+- Can follow company, team or client approaches to continuous integration, version and source control
 - Describe a situation where you demonstrated  this job function.
 - Summarize the actions you took to accomplish the goal. 
 - Emphasize the results of this action for your team or your learning. 
 - Connect the competency to this project
 
+### JF 3.4
+- Can create a logical and maintainable codebase
+- Describe a situation where you demonstrated  this job function.
+- Summarize the actions you took to accomplish the goal. 
+- Emphasize the results of this action for your team or your learning. 
+- Connect the competency to this project
+
+### JF 3.6
+- Can implement a RESTful API
+- Describe a situation where you demonstrated  this job function.
+- Summarize the actions you took to accomplish the goal. 
+- Emphasize the results of this action for your team or your learning. 
+- Connect the competency to this project
+
+### JF 3.7
+- Can implement authentication and authorization to an API. 
+- Describe a situation where you demonstrated  this job function.
+- Summarize the actions you took to accomplish the goal. 
+- Emphasize the results of this action for your team or your learning. 
+- Connect the competency to this project
+
+### JF 3.8
+- Can encrypt sensitive data via hashing
+- Describe a situation where you demonstrated  this job function.
+- Summarize the actions you took to accomplish the goal. 
+- Emphasize the results of this action for your team or your learning. 
+- Connect the competency to this project
+
+
+### JF 4.3
+- Is able to build, manage and deploy code into the relevant environment
+- Describe a situation where you demonstrated  this job function.
+- Summarize the actions you took to accomplish the goal. 
+- Emphasize the results of this action for your team or your learning. 
+- Connect the competency to this project
+
+
+### JF 4.4
+- Can interpret and implement a given design while remaining compliant with security and maintainability requirements				
+- Describe a situation where you demonstrated  this job function.
+- Summarize the actions you took to accomplish the goal. 
+- Emphasize the results of this action for your team or your learning. 
+- Connect the competency to this project
+
+
+### JF 5.5
+- Understands and can apply structured techniques to problem solving, can debug code and can understand the structure of programmes to identify and resolve issues
+- Describe a situation where you demonstrated  this job function.
+- Summarize the actions you took to accomplish the goal. 
+- Emphasize the results of this action for your team or your learning. 
+- Connect the competency to this project
+
+
+### JF 6.3
+- Able to communicate software solutions and ideas to technical and non-technical stakeholders				
+- Describe a situation where you demonstrated  this job function.
+- Summarize the actions you took to accomplish the goal. 
+- Emphasize the results of this action for your team or your learning. 
+- Connect the competency to this project
+
+### JF 6.4
+- Works independently and takes responsibility. For example, has a disciplined and responsible approach to risk, and stays motivated and committed when facing challenges							
+- Describe a situation where you demonstrated  this job function.
+- Summarize the actions you took to accomplish the goal. 
+- Emphasize the results of this action for your team or your learning. 
+- Connect the competency to this project
+
+### JF 6.5
+- Works collaboratively with a wide range of people in different roles, internally and externally, with a positive attitude to inclusion & diversity			
+- Describe a situation where you demonstrated  this job function.
+- Summarize the actions you took to accomplish the goal. 
+- Emphasize the results of this action for your team or your learning. 
+- Connect the competency to this project
+
+### JF 6.6
+- Shows initiative for solving problems within their own remit, being resourceful when faced with a problem to solve				
+- Describe a situation where you demonstrated  this job function.
+- Summarize the actions you took to accomplish the goal. 
+- Emphasize the results of this action for your team or your learning. 
+- Connect the competency to this project
+
+### JF 6.7
+- Communicates effectively in a variety of situations to both a technical and nontechnical audience.				
+- Describe a situation where you demonstrated  this job function.
+- Summarize the actions you took to accomplish the goal. 
+- Emphasize the results of this action for your team or your learning. 
+- Connect the competency to this project
 
 ### Original README
 # High_Paw
