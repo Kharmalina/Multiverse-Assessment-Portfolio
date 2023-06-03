@@ -10,9 +10,17 @@ Give a high-level overview of the project purpose:
 - Step 6: Maintenance: The team maintain the application via cleaning the databases when needed and looking over website usage. This last step is the newest step for me, since this is a long-term step in the SDLC and will need constant and consistent vigilance and actions.
 
 ### Action
-- My main contributions revolved backend development and deployment. 
+- My main contributions revolved backend development, deployment, and Docker implementation.
+- Backend Implementations
+    - Collaborated with the `Models` files. Helped wrote and refactor the models code for `Hangout.model.js`, `Token.model.js`, and `User.model.js`.
+    - Took lead on the backend validation schema with the use of `@hapi/joi` dependency. Under `server/helpers/validations_schema.js`, the schemas I contributed were `authSchema`, for registration form, `loginSchema`, for login form, `profileSchema`, for updating profile details, and `refreshTokenSchema`, a part of an alternate solution to implement refresh tokens. 
+    - Wrote the majority of the functions and logic that will be used in the backend routes. Under `server/helpers/jwt_helper.js`, the functions I wrote were `signAccessToken`, `verifyAccessToken`, `signRefreshToken`, and `verifyRefreshToken`.
+    - Took lead in the project server folder structure for the backend routes. Files include 
+- Containerization/Docker
+    - Wrote the code for the Dockerfiles in the `server` and `client` folders. 
+    - Wrote and debugged the `docker-compose.yml` file. 
 - Deployment
-    - Wrote the 
+    - Wrote the `.github/workflows` files, build.yml and test.yml, for CI and CD.
 
 ### Result
 - (*Result*) Showcase your final application with its functionality
