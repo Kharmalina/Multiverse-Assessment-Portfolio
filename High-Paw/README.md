@@ -1,15 +1,16 @@
 ## Project #1: High Paw
-Give a high-level overview of the project purpose:
+A high-level overview of the project purpose:
 
-### SITUATION
+### Situation
 - High Paw is a deployed, full stack application created for the Deployment module of the Multiverse curriculum. High Paw's main concept is a social media platform where users can register there dogs/puppies. The gimmmick and novelty of the ptoject idea is that the animals themselves are the ones interacting with the site - the profile are the dog's demographics, as if they were the ones registering! The dogs would be the ones creating events and hangouts via geolocation. The animals can edit their own hangouts, see other's hangouts, and register for them. The dogs would be the ones creating events and hangouts via geolocation. The animals can edit their own hangouts, see other's hangouts, and register for them.
-### TASK
+
+### Task
 - There are 4 main parts to the root project structure: `.github/workflows`, `client`, `server`, and `docker-compose.yml`. These core parts are for Continous Integration and Continous Deployment, frontend implementation, backend development, and containerization, respectively. 
 - Following the Software Development Life Cycle (SDLC), in a team of 4, we started off with Analysis and Design - we established the concept of a dog-centric social platform with geolocation as one of the main features. Two team members responsible for frontend development was also responsible for the overall rendered design, using Figma and wireframes. Then came the design for the backend development, which me and another team memeber was responsible for. We created and connected the MongoDb database, created protected routes, created a RESTful API, backend form validation, authentication, and authorization. We also needed an efficient workflow, so CI and CD was implemented via GitHub Actions.
 - Steps 3-5, Implementation, Test, and Deployment: Implementation was mainly done with pair prgramming, 2 memebers each working on the frontend or backend. The team met up when connecting the frontend to the backend, deployment issues, and other questions that needed to be asked from the other pair. With the use of the CI/CD, triggering our tests workflow with every pull request to main and trigering the build and deploy workflow with a push to the main branch gave us the space to debug the needed code, see which tests were successful or not, and why a deployment may or may not be working.
 - Step 6: Maintenance: The team maintain the application via cleaning the databases when needed and looking over website usage. This last step is the newest step for me, since this is a long-term step in the SDLC and will need constant and consistent vigilance and actions.
 
-### ACTION
+### Action
 - My main contributions revolved backend development, deployment, and Docker implementation.
 - Backend Implementations
     - Collaborated with the `Models` files. Helped wrote and refactor the models code for `Hangout.model.js`, `Token.model.js`, and `User.model.js`.
@@ -28,12 +29,15 @@ Give a high-level overview of the project purpose:
 - Security/Authorization/Authentication
     - Refresh and access tokens were vital to the backend's responsiblity to secure the application, specifically when registering, looging in and logging out. Collaborated on writing code to make sure refresh and and access tokens were properly stored in the database, added and deleted in session storage.      
 
-### RESULT
+### Result
 - [High Paw Deployed Site](https://high-paw-ugau.onrender.com/)
+- [Final Project Video Presentation Recording](https://high-paw-ugau.onrender.com/](https://youtu.be/b6yPHPoDQ2Y)
 
 ### Photos
-Homepage:
+Homepage (dark mode):
 ![alt text](https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/590bd5a4-405c-4a57-aa01-e3528715241b "High Paw Home Page")
+
+
  
 
 ## Technologies
