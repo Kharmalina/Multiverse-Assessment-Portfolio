@@ -9,18 +9,22 @@ Give a high-level overview of the project purpose:
 - Steps 3-5, Implementation, Test, and Deployment: Implementation was mainly done with pair prgramming, 2 memebers each working on the frontend or backend. The team met up when connecting the frontend to the backend, deployment issues, and other questions that needed to be asked from the other pair. With the use of the CI/CD, triggering our tests workflow with every pull request to main and trigering the build and deploy workflow with a push to the main branch gave us the space to debug the needed code, see which tests were successful or not, and why a deployment may or may not be working.
 - Step 6: Maintenance: The team maintain the application via cleaning the databases when needed and looking over website usage. This last step is the newest step for me, since this is a long-term step in the SDLC and will need constant and consistent vigilance and actions.
 
-### Action
+### ACTION
 - My main contributions revolved backend development, deployment, and Docker implementation.
 - Backend Implementations
     - Collaborated with the `Models` files. Helped wrote and refactor the models code for `Hangout.model.js`, `Token.model.js`, and `User.model.js`.
     - Took lead on the backend validation schema with the use of `@hapi/joi` dependency. Under `server/helpers/validations_schema.js`, the schemas I contributed were `authSchema`, for registration form, `loginSchema`, for login form, `profileSchema`, for updating profile details, and `refreshTokenSchema`, a part of an alternate solution to implement refresh tokens. 
     - Wrote the majority of the functions and logic that will be used in the backend routes. Under `server/helpers/jwt_helper.js`, the functions I wrote were `signAccessToken`, `verifyAccessToken`, `signRefreshToken`, and `verifyRefreshToken`.
-    - Took lead in the project server folder structure for the backend routes. Files include 
+    - Took lead in the server folder structure for the backend routes. Files include `server/routes/Auth.route.js`, `server/routes/Hangout.route.js`, and `server/routes/Profile.route.js`.
+    - Collaborated on the functions and logic behind the register, login, logout and refreshToken endpoints, which can be found in `server/controllers/Auth.Controller.js`.
+    - Took lead on the backend functions and logic for the endpoints of the profile feature. The endpoints include `GET(/:id)`, and `POST(/edit/:id)`.
 - Containerization/Docker
     - Wrote the code for the Dockerfiles in the `server` and `client` folders. 
     - Wrote and debugged the `docker-compose.yml` file. 
 - Deployment
     - Wrote the `.github/workflows` files, build.yml and test.yml, for CI and CD.
+    - Took lead on finding the best cloud platoform to deploy our frontend and backend. Render was for the frontend and Railway was used for the backend. 
+    - Collaborated on finding all the necessary secret environment on the cloud platforms and on our GitHub repo to make deployment possible
 
 ### Result
 - (*Result*) Showcase your final application with its functionality
