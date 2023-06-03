@@ -10,7 +10,9 @@ Give a high-level overview of the project purpose:
 - Step 6: Maintenance: The team maintain the application via cleaning the databases when needed and looking over website usage. This last step is the newest step for me, since this is a long-term step in the SDLC and will need constant and consistent vigilance and actions.
 
 ### Action
-- (*Action*) Explain the code you wrote to achieve your desired result
+- My main contributions revolved backend development and deployment. 
+- Deployment
+    - Wrote the 
 
 ### Result
 - (*Result*) Showcase your final application with its functionality
