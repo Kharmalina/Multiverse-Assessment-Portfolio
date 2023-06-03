@@ -33,7 +33,7 @@ Give a high-level overview of the project purpose:
 
 ### Photos
 Homepage:
-![alt text](https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/8661860b-c448-4cd0-b5a0-70c73ed27803 "High Paw Home Page")
+![alt text](https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/590bd5a4-405c-4a57-aa01-e3528715241b "High Paw Home Page")
  
 
 ## Technologies
