@@ -13,7 +13,7 @@ Give a high-level overview of the project purpose:
 - My main contributions revolved backend development, deployment, and Docker implementation.
 - Backend Implementations
     - Collaborated with the `Models` files. Helped wrote and refactor the models code for `Hangout.model.js`, `Token.model.js`, and `User.model.js`.
-    - Took lead on the backend validation schema with the use of `@hapi/joi` dependency. Under `server/helpers/validations_schema.js`, the schemas I contributed were `authSchema`, for registration form, `loginSchema`, for login form, `profileSchema`, for updating profile details, and `refreshTokenSchema`, a part of an alternate solution to implement refresh tokens. 
+    - Took lead on the backend validation schema with the use of `@hapi/joi` dependency. Under `server/helpers/validations_schema.js`, the schemas I contributed were `authSchema`, for registration form, `loginSchema`, for login form, `profileSchema`, for updating profile details, and `refreshTokenSchema`, a part of an alternate solution to implement refresh tokens.
     - Wrote the majority of the functions and logic that will be used in the backend routes. Under `server/helpers/jwt_helper.js`, the functions I wrote were `signAccessToken`, `verifyAccessToken`, `signRefreshToken`, and `verifyRefreshToken`.
     - Took lead in the server folder structure for the backend routes. Files include `server/routes/Auth.route.js`, `server/routes/Hangout.route.js`, and `server/routes/Profile.route.js`.
     - Collaborated on the functions and logic behind the register, login, logout and refreshToken endpoints, which can be found in `server/controllers/Auth.Controller.js`.
@@ -25,12 +25,17 @@ Give a high-level overview of the project purpose:
     - Wrote the `.github/workflows` files, build.yml and test.yml, for CI and CD.
     - Took lead on finding the best cloud platoform to deploy our frontend and backend. Render was for the frontend and Railway was used for the backend. 
     - Collaborated on finding all the necessary secret environment on the cloud platforms and on our GitHub repo to make deployment possible
+- Security/Authorization/Authentication
+    - Refresh and access tokens were vital to the backend's responsiblity to secure the application, specifically when registering, looging in and logging out. Collaborated on writing code to make sure refresh and and access tokens were properly stored in the database, added and deleted in session storage.      
 
-### Result
-- (*Result*) Showcase your final application with its functionality
+### RESULT
+- [High Paw Deployed Site](https://high-paw-ugau.onrender.com/)
 
 ### Photos
-- Include relevant screenshots
+Homepage:
+![alt text](<img width="423" alt="High Paw HomePage" src="https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/8661860b-c448-4cd0-b5a0-70c73ed27803">
+)
+ 
 
 ## Technologies
 
