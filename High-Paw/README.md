@@ -31,7 +31,7 @@ A high-level overview of the project purpose:
 
 ### Result
 - [High Paw Deployed Site](https://high-paw-ugau.onrender.com/)
-- [Final Project Video Presentation Recording](https://high-paw-ugau.onrender.com/](https://youtu.be/b6yPHPoDQ2Y)
+- [Final Project Video Presentation Recording](https://youtu.be/b6yPHPoDQ2Y)
 
 ### Photos
 Homepage (dark mode):
