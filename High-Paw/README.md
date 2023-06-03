@@ -29,23 +29,11 @@ A high-level overview of the project purpose:
 - Security/Authorization/Authentication
     - Refresh and access tokens were vital to the backend's responsiblity to secure the application, specifically when registering, looging in and logging out. Collaborated on writing code to make sure refresh and and access tokens were properly stored in the database, added and deleted in session storage.      
 
-### Result
+### Result + Video Demo
 - [High Paw Deployed Site](https://high-paw-ugau.onrender.com/)
 - [Final Project Video Presentation Recording](https://youtu.be/b6yPHPoDQ2Y)
 
-### Photos
-Homepage (dark mode):
-![alt text](https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/590bd5a4-405c-4a57-aa01-e3528715241b "High Paw Home Page")
-
-
- 
-
 https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/414cbbd3-d2f5-4d97-aa15-9c89eec25e71
-
-
-
-https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/ba20d4ec-27c7-4258-ac1b-cb6d89ba7afd
-
 
 
 ## Technologies
