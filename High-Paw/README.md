@@ -67,6 +67,10 @@ Deployment
 
 ### JF 1.7
 - Can follow company, team or client approaches to continuous integration, version and source control
+- I followed my team approaches to continuous integration, continuous deployment, version and source control - GitHub Actions, GitHub, and Git, respectively. As a team we decided these were the best tools to use becasue many, if not all, of the tools are industry-standard and many companies use them to help build effective code, workflows and deployment. For our project, Git and GitHub was effective in pushing and pulling the necessary branches for all team members to have the most current or working code. GitHub Actions was great to see what tests and deployments attempts succeeded or failed, and in turn what code or other factors we needed to look at for debugging and refactoring. 
+
+### JF 2.1
+- Can create and analyze artefacts, such as use cases and/or user stories
 - Describe a situation where you demonstrated  this job function.
 - Summarize the actions you took to accomplish the goal. 
 - Emphasize the results of this action for your team or your learning. 
@@ -124,23 +128,8 @@ Deployment
 - Emphasize the results of this action for your team or your learning. 
 - Connect the competency to this project
 
-
-### JF 6.3
-- Able to communicate software solutions and ideas to technical and non-technical stakeholders				
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
-
 ### JF 6.4
 - Works independently and takes responsibility. For example, has a disciplined and responsible approach to risk, and stays motivated and committed when facing challenges							
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
-
-### JF 6.5
-- Works collaboratively with a wide range of people in different roles, internally and externally, with a positive attitude to inclusion & diversity			
 - Describe a situation where you demonstrated  this job function.
 - Summarize the actions you took to accomplish the goal. 
 - Emphasize the results of this action for your team or your learning. 
