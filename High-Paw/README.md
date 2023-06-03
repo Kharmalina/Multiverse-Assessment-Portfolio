@@ -63,10 +63,7 @@ Deployment
 ## Competencies
 ### JF 1.5
 - Can work effectively and contribute appropriately on a team to produce software
-- Describe a situation where you demonstrated this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competentcy to this project
+- I pair programmed with another developer that was also working on the backend. We'd take turns being the Driver and Navigator. We would help each other write and debug code and bounce ideas off of each other on what tools and code to implement and what not to implement. Making these kind of choices with another developer shows my ability to contribute ideas and problem solving skills as well as take in other people's ideas on how to produce software the best way we can. I'd also check-in with the other pair of developers, see how they are doing with their work and what work we need to do that requires all 4 of us (example, connecting the database to our application and connecting the frontend to the backend). 
 
 ### JF 1.7
 - Can follow company, team or client approaches to continuous integration, version and source control
