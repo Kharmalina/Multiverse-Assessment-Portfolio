@@ -69,15 +69,9 @@ Deployment
 - Can follow company, team or client approaches to continuous integration, version and source control
 - I followed my team approaches to continuous integration, continuous deployment, version and source control - GitHub Actions, GitHub, and Git, respectively. As a team we decided these were the best tools to use becasue many, if not all, of the tools are industry-standard and many companies use them to help build effective code, workflows and deployment. For our project, Git and GitHub was effective in pushing and pulling the necessary branches for all team members to have the most current or working code. GitHub Actions was great to see what tests and deployments attempts succeeded or failed, and in turn what code or other factors we needed to look at for debugging and refactoring. 
 
-### JF 2.1
-- Can create and analyze artefacts, such as use cases and/or user stories
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
-
 ### JF 3.4
 - Can create a logical and maintainable codebase
+- Collaborated and took lead on multiple tasks relating to the success of backend and deplopyment implementation. 
 - Describe a situation where you demonstrated  this job function.
 - Summarize the actions you took to accomplish the goal. 
 - Emphasize the results of this action for your team or your learning. 
