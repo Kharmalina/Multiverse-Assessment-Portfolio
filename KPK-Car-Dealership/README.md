@@ -63,31 +63,27 @@ Deployment
 ## Competencies
 ### JF 1.5
 - Can work effectively and contribute appropriately on a team to produce software
-- I pair programmed with another developer that was also working on the backend. We'd take turns being the Driver and Navigator. We would help each other write and debug code and bounce ideas off of each other on what tools and code to implement and what not to implement. We'd establish a plan on who takes the lead on which tasks, work individually, then come together to show the work we have done and questions that may come up about our code. Making these kind of choices with another developer shows my ability to contribute ideas and problem solving skills as well as take in other people's ideas on how to produce software effectively. I'd also check-in with the other pair of developers, see how they are doing with their work and what work we need to do that requires all 4 of us (example, connecting the database to our application and connecting the frontend to the backend). 
-
-### JF 1.7
-- Can follow company, team or client approaches to continuous integration, version and source control
-- I followed my team approaches to continuous integration, continuous deployment, version and source control - GitHub Actions, GitHub, and Git, respectively. As a team we decided these were the best tools to use because many, if not all, of the tools are industry-standard and many companies use them to help build effective code, workflows and deployment. For our project, Git and GitHub was effective in pushing and pulling the necessary branches for all team members to have the most current or working code. GitHub Actions was great to see what tests and deployments attempts succeeded or failed, and in turn what code or other factors we needed to look at for debugging and refactoring. 
+- I worked independently, pair programmed, and worked with my team of 3 to produce software. Some actions I have taken to complete this job function is take initiative during meetings on how to start the SDLC process for the project. I would ask others to take lead on tasks, ask if they are okay with the task and if they have any concerns or questions. I would take lead on tasks and be a willing support developer on other team memeber's task they are leading on. I created a Slack group chat to check-in with my teammates and set up meetings outside of scheduled meeting times to complete the necessary tasks before the deadline (made sure this was okay with everyone before proceeding). 
 
 ### JF 2.1
 - Can create and analyze artefacts, such as use cases and/or user stories
-- While implementing code for the endpoints, I thought of common and extreme use cases that could be possible while a user is in the application. One example is with logging in and logging out. What is a user wants to type in the endpoint `/profile` in the address bar, and is not logged in? Accessing profile information ont he browser is only accessible after authenticating the user aka logging in. If the user wants to use the browser backspace or forward arrows to access the other services in the webpage after logging out, that isn't possible of the security code I implemented. Through the power of establishing use cases and user stories, we can plan and prevent a user hacking or using the website in a way that was not intended. 
+- While implementing code for the endpoints, I thought of common and extreme use cases that could be possible while a user is in the application. One example is with logging in and logging out. What is a user wants to type in the endpoint `/home` in the address bar, and is not logged in? Accessing this endpoint on the browser is only accessible after authenticating the user aka logging in. If the user wants to use the browser backspace or forward arrows to access the other services in the webpage after logging out, that isn't possible of the security code implemented.
+- Another user story is user vs admin rights. If a user has admin priviledges, that user has access to services and functionality a user (such as a customer) does not have access to. For example, admin can edit/update car inventory, car prices, images, delete data and so on. By identifying this user story, we can plan out the code needed to make this possible. 
+- Through the power of establishing use cases and user stories, we can plan and prevent a user hacking or using the website in a way that was not intended. 
 
-### JF 2.1
-- Can create and analyze artefacts, such as use cases and/or user stories
-- While implementing code for the endpoints, I thought of common and extreme use cases that could be possible while a user is in the application. One example is with logging in and logging out. What is a user wants to type in the endpoint `/profile` in the address bar, and is not logged in? Accessing profile information ont he browser is only accessible after authenticating the user aka logging in. If the user wants to use the browser backspace or forward arrows to access the other services in the webpage after logging out, that isn't possible of the security code I implemented. Through the power of establishing use cases and user stories, we can plan and prevent a user hacking or using the website in a way that was not intended. 
+### JF 2.6
+- Can translate wireframes into User Interfaces
+- In the design process, I created wireframes with Figma to translate them into User Interfaces. Much of my contributions are related to the frontend, creating React Components, state, other React code, CSS, and Bootstrap code that reflect the wireframes. In relation to the project, translating the wireframes to the UI meant everyone on the team knew what the end product should look like and create code that adds functionality that makes sense to the User Interface.
 
-### JF 3.4
-- Can create a logical and maintainable codebase
-- Collaborated and took lead on multiple tasks relating to the success of backend and deployment implementation. I took part in creating the functions and logic behind the login, logout, register, refresh token endpoints, and the profile feature. Through CI/CD, the codebase is maintainable and manageable with productive workflows. MongoDB is also maintained with the use of MongoDbCompass, a powerful GUI for querying, aggregating, and analyzing your MongoDB data in a visual environment. Another example is the backend validation - with the use of `@hapi/joi` and the `validateAsync` function, form validation is secured and is an added layer of security. Learning how to maintain a smart and effective codebase is a skill that is important for the start and continuation of a successful project. 
-
-### JF 3.7
-- Can implement authentication and authorization to an API.
-- I implemented code, functions, packages and dependencies that is responsible for authentication and authorization of High Paw. Many applications include registering, logging in and logging out. These features require authentication and authorization for reducing and preventing cyber attacks again outside actors. Since High Paw has a decent level of authentication and authorization, when our users register and login an access token and refresh token is generated and expires when necessary. The refresh token is stored in storage session and is deleted when a user log outs. 
-
-### JF 3.8
-- Can encrypt sensitive data via hashing
-- With the implementation of bcrypt, the sensitive data such as passwords and confirm passwords are hashed and salted. High Paw's database does not have decrypted password data - this will prevent hackers to easily take sensitive user information and attempt cyber attacks. 
+### JF 3.6
+- Can implement a RESTful API ([resource: WHat is a REST API?](https://www.redhat.com/en/topics/api/what-is-a-rest-api))
+- I followed the software architecture that makes an API RESTful:
+    - A client-server architecture made up of clients, servers, and resources, with requests managed through HTTP
+    - Stateless client-server communication
+    - Cacheable data that streamlines client-server interactions
+    - A uniform interface between components so that information is transferred in a standard form
+- In `index.js`, multiple HTTP Methods were used for all endpoints: GET, POST, PUT, and DELETE
+- HTTP authentication was also used with Bearer authentication, the process of giving access control to the token bearer
 
 
 ### JF 4.3
