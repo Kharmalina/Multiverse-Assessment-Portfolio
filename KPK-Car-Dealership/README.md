@@ -17,9 +17,11 @@ A high-level overview of the project purpose:
     - Loading animation and functionality
     - Entire code in `client/components/buttons`
     - Code in `client/components/Navbar.js` and `client/components/LoginRegisterPage.js`
-    - frontend navabr
-    - client side and server side connection 
-    - Initial react files
+    - Code in `client/App.js`, `client/index.html`, `client/index.js`, `client/style.css`
+    - Admin, User, and Car models  in `db`
+    - Initializing sequelize, connecting the database, and seeding the data in `db/db.js`, `db/index.js`, `db/seed.js`, `db/seedFn.js`
+    - client side and server side connection
+    - Initial react files to setup a React application
 - Backend Implementations
     - Connect login and sign up form to the backend 
     - admin logic
