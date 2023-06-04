@@ -12,6 +12,7 @@ A high-level overview of the project purpose:
 - My main contributions revolved frontend and backend development.
 - Frontend Implementations 
     - React, JS , HTML and CSS (including holo background) code for homepage (where login and signup forms live)
+    - Bootstrap components for forms (style, banners, icons)
     - Login and Sign Up Form form validation with `Yup` package
     - Loading animation and functionality
     - Entire code in `client/components/buttons`
