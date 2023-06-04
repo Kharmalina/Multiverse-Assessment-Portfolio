@@ -2,25 +2,26 @@
 A high-level overview of the project purpose:
 
 ### Situation
-- High Paw is a deployed, full stack application created for the Deployment module of the Multiverse curriculum. High Paw's main concept is a social media platform where users can register there dogs/puppies. The gimmick and novelty of the project idea is that the animals themselves are the ones interacting with the site - the profile are the dog's demographics, as if they were the ones registering! The dogs would be the ones creating events and hangouts via geolocation. The animals can edit their own hangouts, see other's hangouts, and register for them. The dogs would be the ones creating events and hangouts via geolocation. The animals can edit their own hangouts, see other's hangouts, and register for them.
+- KPK Car Dealership is a deployed, full stack application created for the Backend module of the Multiverse curriculum. KPK Car Dealership's main concept is a mock car dealership website that has car inventory as its main rendered data. Its main features and implementations are pagination, search, filter, user vs admin rights, RESTful API, authorization, authentication, form validation, protected endpoints, middleware, and hashing.
 
 ### Task
-- There are 4 main parts to the root project structure: `.github/workflows`, `client`, `server`, and `docker-compose.yml`. These core parts are for Continuous Integration and Continuous Deployment, frontend implementation, backend development, and containerization, respectively. 
-- Next part fulfills JF 1.1 Competency Checklist. Following the Software Development Life Cycle (SDLC), in a team of 4, we started off with Analysis and Design - we established the concept of a dog-centric social platform with geolocation as one of the main features. Two team members responsible for frontend development was also responsible for the overall rendered design, using Figma and wireframes. Then came the design for the backend development, which me and another team member was responsible for. We created and connected the MongoDb database, created protected routes, created a RESTful API, backend form validation, authentication, and authorization. We also needed an efficient workflow, so CI and CD was implemented via GitHub Actions.
-- Steps 3-5, Implementation, Test, and Deployment: Implementation was mainly done with pair programming, 2 members each working on the frontend or backend. The team met up when connecting the frontend to the backend, deployment issues, and other questions that needed to be asked from the other pair. With the use of the CI/CD, triggering our tests workflow with every pull request to main and triggering the build and deploy workflow with a push to the main branch gave us the space to debug the needed code, see which tests were successful or not, and why a deployment may or may not be working.
-- Step 6: Maintenance: The team maintain the application via cleaning the databases when needed and looking over website usage. This last step is the newest step for me, since this is a long-term step in the SDLC and will need consistent vigilance and actions to take place.
+- There are multiple core parts to the root project structure: `client`, `db`, `src`, and the files pertaining to connecting the SQLlite database, endpoints, and middleware.
+- The design was mainly focused on the backend codebase, but my team and I created wireframes of the frontend components of how and where to render the data and other features of our application. 
 
 ### Action
-- My main contributions revolved backend development, deployment, and Docker implementation.
+- My main contributions revolved frontend and backend development.
+- Frontend Implementations 
+    - React, JS , HTML and CSS (including holo background) code for homepage (where login and signup forms live)
+    - Login and Sign Up Form form validation with `Yup` package
+    - Loading animation and functionality
+    - Entire code in `client/components/buttons`
+    - Code in `client/components/Navbar.js` and `client/components/LoginRegisterPage.js`
+    - frontend navabr
+    - client side and server side connection 
+    - Initial react files
 - Backend Implementations
-    - Collaborated with the `Models` files. Helped wrote and refactor the models code for `Hangout.model.js`, `Token.model.js`, and `User.model.js`.
-    - Took lead on the backend validation schema with the use of `@hapi/joi` dependency. Under `server/helpers/validations_schema.js`, the schemas I contributed were `authSchema`, for registration form, `loginSchema`, for login form, `profileSchema`, for updating profile details, and `refreshTokenSchema`, a part of an alternate solution to implement refresh tokens.
-    - Wrote the majority of the functions and logic that will be used in the backend routes. Under `server/helpers/jwt_helper.js`, the functions I wrote were `signAccessToken`, `verifyAccessToken`, `signRefreshToken`, and `verifyRefreshToken`.
-    - Took lead in the server folder structure for the backend routes. Files include `server/routes/Auth.route.js`, `server/routes/Hangout.route.js`, and `server/routes/Profile.route.js`.
-    - Collaborated on the functions and logic behind the register, login, logout and refreshToken endpoints, which can be found in `server/controllers/Auth.Controller.js`.
-    - Took lead on the backend functions and logic for the endpoints of the profile feature. The endpoints include `GET(/:id)`, and `POST(/edit/:id)`.
-- Security/Authorization/Authentication
-    - Refresh and access tokens were vital to the backend's responsibility to secure the application, specifically when registering, logging in and logging out. Collaborated on writing code to make sure refresh and and access tokens were properly stored in the database, added and deleted in session storage.      
+    - Connect login and sign up form to the backend 
+    - admin logic
 
 ### Result + Video Demo
 - [KPK Car Dealership Deployed Site](https://kpk-cardealership.netlify.app/#/)
