@@ -47,11 +47,11 @@ Front End
 - Cloudinary
 
 Back End
-- express
-- jsonwebtoken
-- @hapi/joi
-- bcrypt
-- mongoose
+- `express`
+- `jsonwebtoken`
+- `@hapi/joi`
+- `bcrypt`
+- `mongoose`
 
 Database
 - MongoDB
