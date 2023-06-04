@@ -30,8 +30,8 @@ A high-level overview of the project purpose:
     - Refresh and access tokens were vital to the backend's responsibility to secure the application, specifically when registering, logging in and logging out. Collaborated on writing code to make sure refresh and and access tokens were properly stored in the database, added and deleted in session storage.      
 
 ### Result + Video Demo
-- [High Paw Deployed Site](https://high-paw-ugau.onrender.com/)
-- [Final Project Video Presentation Recording](https://youtu.be/b6yPHPoDQ2Y)
+- [KPK Car Dealership Deployed Site](https://kpk-cardealership.netlify.app/#/)
+- [Final Project Video Presentation Recording](https://www.youtube.com/watch?v=LtoEbySw2fI)
 
 https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/b3a21e59-57f5-4c1d-907d-41f8c1ee99b6
 
@@ -51,11 +51,11 @@ Back End
 - mongoose
 
 Database
-- MongoDB
+- SQLite
 
 Deployment
 - Railway (backend)
-- Render (frontend)
+- Netlify (frontend)
 
 ## Competencies
 ### JF 1.5
