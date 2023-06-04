@@ -2,7 +2,7 @@
 A high-level overview of the project purpose:
 
 ### Situation
-- KPK Car Dealership is a deployed, full stack application created for the Backend module of the Multiverse curriculum. KPK Car Dealership's main concept is a mock car dealership website that has car inventory as its main rendered data. Its main features and implementations are pagination, search, filter, user vs admin rights, RESTful API, authorization, authentication, form validation, protected endpoints, middleware, and hashing.
+- KPK Car Dealership is a deployed, full stack application created for the Backend module of the Multiverse curriculum. KPK Car Dealership's main concept is a mock car dealership website that has car inventory as its main rendered data. Its main features and implementations are pagination, search, filter, user vs admin rights, RESTful API, Auth0, authorization, authentication, form validation, protected endpoints, middleware, and hashing.
 
 ### Task
 - There are multiple core parts to the root project structure: `client`, `db`, `src`, and the files pertaining to connecting the SQLlite database, endpoints, and middleware.
@@ -23,6 +23,10 @@ A high-level overview of the project purpose:
 - Backend Implementations
     - Connect login and sign up form to the backend 
     - admin logic
+   
+- Auth0/Authentication
+    - Implement Auth0 configuration in `client/App.js`
+
 
 ### Result + Video Demo
 - [KPK Car Dealership Deployed Site](https://kpk-cardealership.netlify.app/#/)
@@ -40,11 +44,11 @@ Front End
 - Material UI
 
 Back End
-- express
-- jsonwebtoken
-- yup
-- bcrypt
-- sqlite3
+- `express`
+- `jsonwebtoken`
+- `yup`
+- `bcrypt`
+- `sqlite3`
 
 Database
 - SQLite
