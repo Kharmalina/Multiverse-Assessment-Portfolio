@@ -18,14 +18,15 @@ A high-level overview of the project purpose:
     - Entire code in `client/components/buttons`
     - Code in `client/components/Navbar.js` and `client/components/LoginRegisterPage.js`
     - Code in `client/App.js`, `client/index.html`, `client/index.js`, `client/style.css`
-    - Admin, User, and Car models  in `db`
-    - Initializing sequelize, connecting the database, and seeding the data in `db/db.js`, `db/index.js`, `db/seed.js`, `db/seedFn.js`
+    - Contribute to Admin, User, and Car models  in `db`
+    - Contribute to initializing sequelize, connecting the database, and seeding the data in `db/db.js`, `db/index.js`, `db/seed.js`, `db/seedFn.js`
     - client side and server side connection
-    - Initial react files to setup a React application
+    - Initialize react files to setup a React application in `src/App.js`, `src/index.js`, `src/style.css`
+    - Contribute the code within `src/components/buttons`, `src/components`
 - Backend Implementations
     - Connect login and sign up form to the backend 
-    - admin logic
-   
+    - Contribute to admin logic and functionality in `index.js`
+    - Contribute to the backend routes, protected endpoints, and logic in `index.js`   
 - Auth0/Authentication
     - Implement Auth0 configuration in `client/App.js`
 
