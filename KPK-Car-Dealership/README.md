@@ -31,7 +31,7 @@ A high-level overview of the project purpose:
 
 ### Result + Video Demo
 - [KPK Car Dealership Deployed Site](https://kpk-cardealership.netlify.app/#/)
-- [Final Project Video Presentation Recording](https://www.youtube.com/watch?v=LtoEbySw2fI)
+- [Project Video Presentation Recording](https://www.youtube.com/watch?v=LtoEbySw2fI)
 
 https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/b3a21e59-57f5-4c1d-907d-41f8c1ee99b6
 
