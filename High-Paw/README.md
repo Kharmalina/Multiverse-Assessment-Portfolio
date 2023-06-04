@@ -99,19 +99,11 @@ Deployment
 
 ### JF 6.4
 - Works independently and takes responsibility. For example, has a disciplined and responsible approach to risk, and stays motivated and committed when facing challenges							
-- Outside of pair programming, most of my time working on the codebase was independently. 
+- A lot of my time working on the codebase was independent work. For example, I was tasked with the profile feature and CI/CD. I was responsible with implementing the code to complete the tasks, problem-solved, and debugged when I need to. I stayed motivated and disciplined to the tasks at hand without the need of someone to be with me. When writing the code for the profile endpoints, adding the middleware for protections, I check all of the possible common and uncommon use cases. I add error handling to help me figure out the issue when something is wrong. Before checking-in witih my teammate, if I am stuck on a problem, I would have my organized notes to relay all the issues I have faced and the steps I have already taken. I am also responsible as a team memeber, I check-in with my backend partner and the other 2 teammates responsible for the front-end. We meet up outside the scheduled time to plan out the features wihin the deadline givewn to us. On the week before the presentation, I was on vacation. I did not want my backend partner to be overwhelmed with the work so I took it upon myself to work on the project outside of work to make sure my team is not burdened due to my absence. 
 
 ### JF 6.6
 - Shows initiative for solving problems within their own remit, being resourceful when faced with a problem to solve				
-- 
-
-### JF 6.7
-- Communicates effectively in a variety of situations to both a technical and nontechnical audience.
-- 			
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
+- The greatest example that shows my initiative to solve problems was when there was a huge issue with deployment and Redis. I initially used Redis as an in-memory key–value database for the refresh tokens. Unfortunately, Redis was giving issues for deployment, and after a week of working on it, plus leaving for vacation, after consulting with my team, we decided to remove Redis from the codebase and use MongoDB instead. We needed to add another model, and implementation on all of the necessary endpoints, middleware, functions, etc. Sometimes, problem-solving is being smart with time-management and being resoutcesful to look for other solutions that may not have been originally planned. 
 
 ### Original README
 # High_Paw
