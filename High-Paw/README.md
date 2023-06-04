@@ -71,28 +71,15 @@ Deployment
 
 ### JF 3.4
 - Can create a logical and maintainable codebase
-- Collaborated and took lead on multiple tasks relating to the success of backend and deplopyment implementation. 
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
-
-### JF 3.6
-- Can implement a RESTful API
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
+- Collaborated and took lead on multiple tasks relating to the success of backend and deplopyment implementation. I took part in creating the functions and logic behind the login, logout, register, refreh token endpoints, and the profile feature. Through CI/CD, the codebase is maintainable and manageable with productive workflows. MongoDb is also maintained with the use of MongoDbCompass, a powerful GUI for querying, aggregating, and analyzing your MongoDB data in a visual environment. Learning how to maintain a smart and effective codebase is a skill that is important for the start and continuation of a successful project. 
 
 ### JF 3.7
-- Can implement authentication and authorization to an API. 
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
+- Can implement authentication and authorization to an API.
+- I implemented code, functions, packages and dependencies that is responsible for authentication and authorization of High Paw. Many applications include registering, logging in and logging out. These features require authentication and authorization for reducing and preventing cyber attacks again outside actors. Since High Paw has a decent level of authentication and authorization, when our users register and login an access token and refresh token is generated and expires when necessary. The refresh token is stored in storage session and is deleted when a user log outs. 
 
 ### JF 3.8
 - Can encrypt sensitive data via hashing
+- With the implementation of bycrypt 
 - Describe a situation where you demonstrated  this job function.
 - Summarize the actions you took to accomplish the goal. 
 - Emphasize the results of this action for your team or your learning. 
