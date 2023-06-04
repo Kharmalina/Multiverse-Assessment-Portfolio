@@ -19,7 +19,7 @@ A high-level overview of the project purpose:
     - Code in `client/components/Navbar.js` and `client/components/LoginRegisterPage.js`
     - Code in `client/App.js`, `client/index.html`, `client/index.js`, `client/style.css`
     - Contribute to Admin, User, and Car models  in `db`
-    - Contribute to initializing sequelize, connecting the database, and seeding the data in `db/db.js`, `db/index.js`, `db/seed.js`, `db/seedFn.js`
+    - Contribute to initializing sequelize, connecting the database, and seeding the data in `db/db.js`, `db/index.js`, `db/seed.js`, `db/seedFn.js`, `server.js`
     - client side and server side connection
     - Initialize react files to setup a React application in `src/App.js`, `src/index.js`, `src/style.css`
     - Contribute the code within `src/components/buttons`, `src/components`
