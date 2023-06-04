@@ -19,13 +19,6 @@ A high-level overview of the project purpose:
     - Took lead in the server folder structure for the backend routes. Files include `server/routes/Auth.route.js`, `server/routes/Hangout.route.js`, and `server/routes/Profile.route.js`.
     - Collaborated on the functions and logic behind the register, login, logout and refreshToken endpoints, which can be found in `server/controllers/Auth.Controller.js`.
     - Took lead on the backend functions and logic for the endpoints of the profile feature. The endpoints include `GET(/:id)`, and `POST(/edit/:id)`.
-- Containerization/Docker
-    - Wrote the code for the Dockerfiles in the `server` and `client` folders. 
-    - Wrote and debugged the `docker-compose.yml` file. 
-- Deployment
-    - Wrote the `.github/workflows` files, build.yml and test.yml, for CI and CD.
-    - Took lead on finding the best cloud platforms to deploy our frontend and backend. Render was for the frontend and Railway was used for the backend. 
-    - Collaborated on finding all the necessary secret environment on the cloud platforms and on our GitHub repo to make deployment possible
 - Security/Authorization/Authentication
     - Refresh and access tokens were vital to the backend's responsibility to secure the application, specifically when registering, logging in and logging out. Collaborated on writing code to make sure refresh and and access tokens were properly stored in the database, added and deleted in session storage.      
 
@@ -40,15 +33,16 @@ https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/b3
 
 Front End
 - React
-- Tailwind CSS
-- Cloudinary
+- CSS
+- Bootstrap
+- Material UI
 
 Back End
 - express
 - jsonwebtoken
-- @hapi/joi
+- yup
 - bcrypt
-- mongoose
+- sqlite3
 
 Database
 - SQLite
