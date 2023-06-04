@@ -71,7 +71,7 @@ Deployment
 
 ### JF 3.4
 - Can create a logical and maintainable codebase
-- Collaborated and took lead on multiple tasks relating to the success of backend and deplopyment implementation. I took part in creating the functions and logic behind the login, logout, register, refreh token endpoints, and the profile feature. Through CI/CD, the codebase is maintainable and manageable with productive workflows. MongoDb is also maintained with the use of MongoDbCompass, a powerful GUI for querying, aggregating, and analyzing your MongoDB data in a visual environment. Learning how to maintain a smart and effective codebase is a skill that is important for the start and continuation of a successful project. 
+- Collaborated and took lead on multiple tasks relating to the success of backend and deplopyment implementation. I took part in creating the functions and logic behind the login, logout, register, refreh token endpoints, and the profile feature. Through CI/CD, the codebase is maintainable and manageable with productive workflows. MongoDB is also maintained with the use of MongoDbCompass, a powerful GUI for querying, aggregating, and analyzing your MongoDB data in a visual environment. Another example is the backend validation - with the use of `@hapi/joi` and the `validateAsync` function, form validation is secured and is an added layer of security. Learning how to maintain a smart and effective codebase is a skill that is important for the start and continuation of a successful project. 
 
 ### JF 3.7
 - Can implement authentication and authorization to an API.
@@ -79,52 +79,35 @@ Deployment
 
 ### JF 3.8
 - Can encrypt sensitive data via hashing
-- With the implementation of bycrypt 
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
+- With the implementation of bycrypt, the sensitive data such as passwords and confirm passwords are hashed and salted. High Paw's database does not have decrypted password data - this will prevent hackers to easilly take sensitive user information and attempt cyber attacks. 
 
 
 ### JF 4.3
 - Is able to build, manage and deploy code into the relevant environment
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
+- I took lead on writing code relating to GitHub Actions workflows, test, and build and deploy. I also took lead on configuring Render and Railway to deploy the frontend and backend, respectively. Initially, the project was fully deployed. After, with the help of my team, adding the necessary environment variables due to more code implemented in the codebase, deployment was successful and ready for production.
 
 
 ### JF 4.4
-- Can interpret and implement a given design while remaining compliant with security and maintainability requirements				
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
+- Can interpret and implement a given design while remaining compliant with security and maintainability requirements	
+- With our design, the team needed a functionality to register, login, logout, and all other endpoints. With that in mind, we were compliant with security and maintainability requirements by adding middleware to protect all endpoints with the use of access and fresh tokens. CI is helpful so we can be aware when tests are passing and failing and we can debug when necessary. 
 
 
 ### JF 5.5
 - Understands and can apply structured techniques to problem solving, can debug code and can understand the structure of programmes to identify and resolve issues
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
+- My general technique to problem solving is asking myself what is the problem in the first place and what is my goal to get to the solution. If it is debugging, I look at the error messages or a `console.log()`, and play around with the code. If it is adding a feature, I do my research and look up resources such as documentation, videos, etc. I also do this with debugging. I then lean to my colleagues for help and get their input. In terms of High Paw, I used this general process to code. For example, when I want to implement refresh and access tokens, I looked at resources on how to implement these tokens with MongoDB. Knowing how and what to search on Google or the internet is an essential skill to problem solve. 
+
 
 ### JF 6.4
 - Works independently and takes responsibility. For example, has a disciplined and responsible approach to risk, and stays motivated and committed when facing challenges							
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
+- Outside of pair programming, most of my time working on the codebase was independently. 
 
 ### JF 6.6
 - Shows initiative for solving problems within their own remit, being resourceful when faced with a problem to solve				
-- Describe a situation where you demonstrated  this job function.
-- Summarize the actions you took to accomplish the goal. 
-- Emphasize the results of this action for your team or your learning. 
-- Connect the competency to this project
+- 
 
 ### JF 6.7
-- Communicates effectively in a variety of situations to both a technical and nontechnical audience.				
+- Communicates effectively in a variety of situations to both a technical and nontechnical audience.
+- 			
 - Describe a situation where you demonstrated  this job function.
 - Summarize the actions you took to accomplish the goal. 
 - Emphasize the results of this action for your team or your learning. 
