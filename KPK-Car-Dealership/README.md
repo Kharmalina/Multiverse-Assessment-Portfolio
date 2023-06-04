@@ -33,11 +33,8 @@ A high-level overview of the project purpose:
 - [High Paw Deployed Site](https://high-paw-ugau.onrender.com/)
 - [Final Project Video Presentation Recording](https://youtu.be/b6yPHPoDQ2Y)
 
-https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/d6231b8e-8896-45a1-b0ff-a77129f6ae36
+https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/b3a21e59-57f5-4c1d-907d-41f8c1ee99b6
 
-https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/5479195b-97b6-4b8f-b343-028d92d76aa4
-
-https://github.com/Kharmalina/Multiverse-Assessment-Portfolio/assets/96323395/8724f82d-4ef6-4968-90a1-bfb1b9cd728e
 
 ## Technologies
 
