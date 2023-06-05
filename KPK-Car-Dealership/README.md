@@ -76,7 +76,7 @@ Deployment
 - In the design process, I created wireframes with Figma to translate them into User Interfaces. Much of my contributions are related to the frontend, creating React Components, state, other React code, CSS, and Bootstrap code that reflect the wireframes. In relation to the project, translating the wireframes to the UI meant everyone on the team knew what the end product should look like and create code that adds functionality that makes sense to the User Interface.
 
 ### JF 3.6
-- Can implement a RESTful API ([resource: WHat is a REST API?](https://www.redhat.com/en/topics/api/what-is-a-rest-api))
+- Can implement a RESTful API ([resource: What is a REST API?](https://www.redhat.com/en/topics/api/what-is-a-rest-api))
 - I followed the software architecture that makes an API RESTful:
     - A client-server architecture made up of clients, servers, and resources, with requests managed through HTTP
     - Stateless client-server communication
