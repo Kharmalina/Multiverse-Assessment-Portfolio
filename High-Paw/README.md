@@ -71,7 +71,7 @@ Deployment
 
 ### JF 2.1
 - Can create and analyze artefacts, such as use cases and/or user stories
-- While implementing code for the endpoints, I thought of common and extreme use cases that could be possible while a user is in the application. One example is with logging in and logging out. What is a user wants to type in the endpoint `/profile` in the address bar, and is not logged in? Accessing profile information ont he browser is only accessible after authenticating the user aka logging in. If the user wants to use the browser backspace or forward arrows to access the other services in the webpage after logging out, that isn't possible of the security code I implemented. Through the power of establishing use cases and user stories, we can plan and prevent a user hacking or using the website in a way that was not intended. 
+- While implementing code for the endpoints, I thought of common and extreme use cases that could be possible while a user is in the application. One example is with logging in and logging out. What is a user wants to type in the endpoint `/profile` in the address bar, and is not logged in? Accessing profile information on the browser is only accessible after authenticating the user aka logging in. If the user wants to use the browser backspace or forward arrows to access the other services in the webpage after logging out, that isn't possible of the security code I implemented. Through the power of establishing use cases and user stories, we can plan and prevent a user hacking or using the website in a way that was not intended. 
 
 ### JF 3.4
 - Can create a logical and maintainable codebase
@@ -94,7 +94,7 @@ Deployment
 
 ### JF 4.4
 - Can interpret and implement a given design while remaining compliant with security and maintainability requirements	
-- With our design, the team needed a functionality to register, login, logout, and all other endpoints. With that in mind, we were compliant with security and maintainability requirements by adding middleware to protect all endpoints with the use of access and fresh tokens. CI is helpful so we can be aware when tests are passing and failing and we can debug when necessary. 
+- With our design, the team needed a functionality to register, login, logout, and all other endpoints. With that in mind, we were compliant with security and maintainability requirements by adding middleware to protect all endpoints with the use of access and refresh tokens. CI is helpful so we can be aware when tests are passing and failing and we can debug when necessary. 
 
 
 ### JF 5.5
