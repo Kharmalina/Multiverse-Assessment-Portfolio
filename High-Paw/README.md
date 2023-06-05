@@ -80,6 +80,7 @@ Deployment
 ### JF 3.7
 - Can implement authentication and authorization to an API.
 - I implemented code, functions, packages and dependencies that is responsible for authentication and authorization of High Paw. Many applications include registering, logging in and logging out. These features require authentication and authorization for reducing and preventing cyber attacks again outside actors. Since High Paw has a decent level of authentication and authorization, when our users register and login an access token and refresh token is generated and expires when necessary. The refresh token is stored in storage session and is deleted when a user log outs. 
+- With the use of JSON Web Tokens (JWT), I am able to sign and verify tokens that will be used for authentication and authorization. 
 
 ### JF 3.8
 - Can encrypt sensitive data via hashing
