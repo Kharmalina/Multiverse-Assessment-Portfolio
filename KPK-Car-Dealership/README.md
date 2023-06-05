@@ -5,7 +5,7 @@ A high-level overview of the project purpose:
 - KPK Car Dealership is a deployed, full stack application created for the Backend module of the Multiverse curriculum. KPK Car Dealership's main concept is a mock car dealership website that has car inventory as its main rendered data. Its main features and implementations are pagination, search, filter, user vs admin rights, RESTful API, Auth0, authorization, authentication, form validation, protected endpoints, middleware, and hashing.
 
 ### Task
-- There are multiple core parts to the root project structure: `client`, `db`, `src`, and the files pertaining to connecting the SQLlite database, endpoints, and middleware.
+- There are multiple core parts to the root project structure: `client`, `db`, `src`, and the files pertaining to connecting the SQLlite database, backend routes, endpoints, protecting routes, and middleware.
 - The design was mainly focused on the backend codebase, but my team and I created wireframes of the frontend components of how and where to render the data and other features of our application. 
 
 ### Action
