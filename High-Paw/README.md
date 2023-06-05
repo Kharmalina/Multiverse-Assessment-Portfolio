@@ -89,7 +89,7 @@ Deployment
 
 ### JF 4.3
 - Is able to build, manage and deploy code into the relevant environment
-- I took lead on writing code relating to GitHub Actions workflows, test, and build and deploy. I also took lead on configuring Render and Railway to deploy the frontend and backend, respectively. Initially, the project was fully deployed. After, with the help of my team, adding the necessary environment variables due to more code implemented in the codebase, deployment was successful and ready for production.
+- I took lead on writing code relating to GitHub Actions workflows, test, and build and deploy. I also took lead on configuring Render and Railway to deploy the frontend and backend, respectively. Initially, the project was fully deployed. After adding more code, deployment failed, But with the help of my team, adding the necessary secret environment variables, deployment was successful and ready for production.
 
 
 ### JF 4.4
