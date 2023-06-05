@@ -84,16 +84,16 @@ Deployment
     - A uniform interface between components so that information is transferred in a standard form
 - In `index.js`, multiple HTTP Methods were used for all endpoints: GET, POST, PUT, and DELETE
 - HTTP authentication was also used with Bearer authentication, the process of giving access control to the token bearer
-
+- The use of Postman was heavily used to make sure the RESTful API was successful and each request had a successful response, or if there was n error, proper error handling
 
 ### JF 4.3
 - Is able to build, manage and deploy code into the relevant environment
-- I took lead on writing code relating to GitHub Actions workflows, test, and build and deploy. I also took lead on configuring Render and Railway to deploy the frontend and backend, respectively. Initially, the project was fully deployed. After, with the help of my team, adding the necessary environment variables due to more code implemented in the codebase, deployment was successful and ready for production.
+- I took lead on and contributing member of many core parts of building and managing the codebase. Examples include writing the initial React code and components, login, register form and functionality and code pertaining to the database - initializing, connecting, rendering, secure sensitive and personal data.
 
 
 ### JF 4.4
 - Can interpret and implement a given design while remaining compliant with security and maintainability requirements	
-- With our design, the team needed a functionality to register, login, logout, and all other endpoints. With that in mind, we were compliant with security and maintainability requirements by adding middleware to protect all endpoints with the use of access and fresh tokens. CI is helpful so we can be aware when tests are passing and failing and we can debug when necessary. 
+- With our design, the team needed a functionality to register, login, logout, and all other endpoints. With that in mind, we were compliant with security and maintainability requirements by adding middleware to protect all endpoints with the use of access and refresh tokens. CI is helpful so we can be aware when tests are passing and failing and we can debug when necessary. 
 
 
 ### JF 5.5
