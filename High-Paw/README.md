@@ -2,32 +2,32 @@
 A high-level overview of the project purpose:
 
 ### Situation
-- High Paw is a deployed, full stack application created for the Deployment module of the Multiverse curriculum. High Paw's main concept is a social media platform where users can register there dogs/puppies. The gimmick and novelty of the project idea is that the animals themselves are the ones interacting with the site - the profile are the dog's demographics, as if they were the ones registering! The dogs would be the ones creating events and hangouts via geolocation. The animals can edit their own hangouts, see other's hangouts, and register for them. The dogs would be the ones creating events and hangouts via geolocation. The animals can edit their own hangouts, see other's hangouts, and register for them.
+- High Paw is a deployed, full-stack application created for the Deployment module of the Multiverse curriculum. High Paw's main concept is a social media platform where users can register their dogs/puppies. The gimmick and novelty of the project idea are that the animals themselves are the ones interacting with the site - the profile is the dog's demographics as if they were the ones registering! The dogs would be the ones creating events and hangouts via geolocation. The animals can edit their hangouts, see others' hangouts, and register for them.
 
 ### Task
 - There are 4 main parts to the root project structure: `.github/workflows`, `client`, `server`, and `docker-compose.yml`. These core parts are for Continuous Integration and Continuous Deployment, frontend implementation, backend development, and containerization, respectively. 
-- Next part fulfills JF 1.1 Competency Checklist. Following the Software Development Life Cycle (SDLC), in a team of 4, we started off with Analysis and Design - we established the concept of a dog-centric social platform with geolocation as one of the main features. Two team members responsible for frontend development was also responsible for the overall rendered design, using Figma and wireframes. Then came the design for the backend development, which me and another team member was responsible for. We created and connected the MongoDb database, created protected routes, created a RESTful API, backend form validation, authentication, and authorization. We also needed an efficient workflow, so CI and CD was implemented via GitHub Actions.
-- Steps 3-5, Implementation, Test, and Deployment: Implementation was mainly done with pair programming, 2 members each working on the frontend or backend. The team met up when connecting the frontend to the backend, deployment issues, and other questions that needed to be asked from the other pair. With the use of the CI/CD, triggering our tests workflow with every pull request to main and triggering the build and deploy workflow with a push to the main branch gave us the space to debug the needed code, see which tests were successful or not, and why a deployment may or may not be working.
-- Step 6: Maintenance: The team maintain the application via cleaning the databases when needed and looking over website usage. This last step is the newest step for me, since this is a long-term step in the SDLC and will need consistent vigilance and actions to take place.
+- The next part fulfills JF 1.1 Competency Checklist. Following the Software Development Life Cycle (SDLC), in a team of 4, we started with Analysis and Design - we established the concept of a dog-centric social platform with geolocation as one of the main features. Two team members responsible for frontend development were also responsible for the overall rendered design, using Figma and wireframes. Then came the design for the backend development, which I and another team member was responsible for. We created and connected the MongoDB database, created protected routes, and created a RESTful API, backend form validation, authentication, and authorization. We also needed an efficient workflow, so CI and CD were implemented via GitHub Actions.
+- Steps 3-5, Implementation, Test, and Deployment: Implementation was mainly done with pair programming, with 2 members each working on the frontend or backend. The team met up when connecting the frontend to the backend, with deployment issues, and other questions that needed to be asked from the other pair. With the use of the CI/CD, triggering the workflow of our `test.yml` file with every pull request to the main branch and triggering the build and deploy workflow with a push to the main branch gave us the space to debug the needed code, see which tests were successful or not, and why a deployment may or may not be working.
+- Step 6: Maintenance: The team maintains the application by cleaning the databases when needed and looking over website usage. This last step is the newest step for me since this is a long-term step in the SDLC and will need consistent vigilance and actions to take place.
 
 ### Action
-- My main contributions revolved backend development, deployment, and Docker implementation.
+- My main contributions revolved around backend development, deployment, and Docker implementation.
 - Backend Implementations
-    - Collaborated with the `Models` files. Helped wrote and refactor the models code for `Hangout.model.js`, `Token.model.js`, and `User.model.js`.
-    - Took lead on the backend validation schema with the use of `@hapi/joi` dependency. Under `server/helpers/validations_schema.js`, the schemas I contributed were `authSchema`, for registration form, `loginSchema`, for login form, `profileSchema`, for updating profile details, and `refreshTokenSchema`, a part of an alternate solution to implement refresh tokens.
+    - Collaborated with the `Models` files. Helped wrote and refactor the model code for `Hangout.model.js`, `Token.model.js`, and `User.model.js`.
+    - Took the lead on the backend validation schema with the use of the `@hapi/joi` dependency. Under `server/helpers/validations_schema.js`, the schemas I contributed were `authSchema`, for the registration form, `loginSchema`, for the login form, `profileSchema`, for updating profile details, and `refreshTokenSchema`, a part of an alternate solution to implement refresh tokens.
     - Wrote the majority of the functions and logic that will be used in the backend routes. Under `server/helpers/jwt_helper.js`, the functions I wrote were `signAccessToken`, `verifyAccessToken`, `signRefreshToken`, and `verifyRefreshToken`.
-    - Took lead in the server folder structure for the backend routes. Files include `server/routes/Auth.route.js`, `server/routes/Hangout.route.js`, and `server/routes/Profile.route.js`.
-    - Collaborated on the functions and logic behind the register, login, logout and refreshToken endpoints, which can be found in `server/controllers/Auth.Controller.js`.
-    - Took lead on the backend functions and logic for the endpoints of the profile feature. The endpoints include `GET(/:id)`, and `POST(/edit/:id)`.
+    - Took the lead in the server folder structure for the backend routes. Files include `server/routes/Auth.route.js`, `server/routes/Hangout.route.js`, and `server/routes/Profile.route.js`.
+    - Collaborated on the functions and logic behind the register, login, logout, and refreshToken endpoints, which can be found in `server/controllers/Auth.Controller.js`.
+    - Took the lead on the backend functions and logic for the endpoints of the profile feature. The endpoints include `GET(/:id)`, and `POST(/edit/:id)`.
 - Containerization/Docker
     - Wrote the code for the Dockerfiles in the `server` and `client` folders. 
     - Wrote and debugged the `docker-compose.yml` file. 
 - Deployment
     - Wrote the `.github/workflows` files, build.yml and test.yml, for CI and CD.
-    - Took lead on finding the best cloud platforms to deploy our frontend and backend. Render was for the frontend and Railway was used for the backend. 
-    - Collaborated on finding all the necessary secret environment on the cloud platforms and on our GitHub repo to make deployment possible
+    - Took the lead on finding the best cloud platforms to deploy our frontend and backend. Render was for the frontend and Railway was used for the backend. 
+    - Collaborated on finding all the necessary secret environment variables for the cloud platforms and for our GitHub repo to make deployment possible
 - Security/Authorization/Authentication
-    - Refresh and access tokens were vital to the backend's responsibility to secure the application, specifically when registering, logging in and logging out. Collaborated on writing code to make sure refresh and and access tokens were properly stored in the database, added and deleted in session storage.      
+    - Refresh and access tokens were vital to the backend's responsibility to secure the application, specifically when registering, logging in, and logging out. Collaborated on writing code to make sure refresh and access tokens were properly stored in the database, added, and deleted in session storage.      
 
 ### Result + Video Demo
 - [High Paw Deployed Site](https://high-paw-ugau.onrender.com/)
