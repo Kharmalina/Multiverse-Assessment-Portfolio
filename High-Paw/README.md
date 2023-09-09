@@ -17,7 +17,8 @@ A high-level overview of the project purpose:
     - Took the lead on the backend validation schema with the use of the `@hapi/joi` dependency. Under `server/helpers/validations_schema.js`, the schemas I contributed were `authSchema`, for the registration form, `loginSchema`, for the login form, `profileSchema`, for updating profile details, and `refreshTokenSchema`, a part of an alternate solution to implement refresh tokens.
     - Wrote the majority of the functions and logic that will be used in the backend routes. Under `server/helpers/jwt_helper.js`, the functions I wrote were `signAccessToken`, `verifyAccessToken`, `signRefreshToken`, and `verifyRefreshToken`.
     - Took the lead in the server folder structure for the backend routes. Files include `server/routes/Auth.route.js`, `server/routes/Hangout.route.js`, and `server/routes/Profile.route.js`.
-    - Collaborated on the functions and logic behind the register, login, logout, and refreshToken endpoints, which can be found in `server/controllers/Auth.Controller.js`.
+    - Added functions and logic behind the register, login, logout, and refreshToken endpoints, which can be found in `server/controllers/Auth.Controller.js`.
+    - Added logic for `server/controllers/Profile.Controller.js`
     - Took the lead on the backend functions and logic for the endpoints of the profile feature. The endpoints include `GET(/:id)`, and `POST(/edit/:id)`.
 - Containerization/Docker
     - Wrote the code for the Dockerfiles in the `server` and `client` folders. 
